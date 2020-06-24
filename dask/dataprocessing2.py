@@ -71,9 +71,9 @@ def football():
     nba_game_d = nba_game_details.dropna()
     # Transfer Data to PostGres
 
-    engine = sqlalchemy.create_engine(
-        'postgresql://drucila18:rebecca22@sportdbpostsql.cxc38wuqlkuh.us-east-1.rds.amazonaws.com/sportdb')
+    engine = sqlalchemy.create_engine('postgresql://' + config.username + ':' + config.password + '@' + config.endpoint)
     con = engine.connect()
+
 
     afc_rec.to_sql('afc_records', con=engine, if_exists='replace', index=False)
     afl_rec.to_sql('afl_records', con=engine, if_exists='replace', index=False)

@@ -87,9 +87,9 @@ def basketball_one():
     wnba_player_reshaped = wnba_player.melt(id_vars=['Player', 'Tm', 'Pos', 'season'],
                                             var_name='statistic_name', value_name='statistic')
 
-    engine = sqlalchemy.create_engine(
-        'postgresql://drucila18:rebecca22@sportdbpostsql.cxc38wuqlkuh.us-east-1.rds.amazonaws.com/sportdb')
+    engine = sqlalchemy.create_engine('postgresql://' + config.username + ':' + config.password + '@' + config.endpoint)
     con = engine.connect()
+
     nba_team_reshaped.to_sql('nba_teams', con=engine, if_exists='replace', index=False)
     nba_team_id.to_sql('nba_team_list', con=engine, if_exists='replace', index=False)
 
