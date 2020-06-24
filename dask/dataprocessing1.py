@@ -87,7 +87,11 @@ def basketball_one():
     wnba_player_reshaped = wnba_player.melt(id_vars=['Player', 'Tm', 'Pos', 'season'],
                                             var_name='statistic_name', value_name='statistic')
 
+<<<<<<< HEAD
     engine = sqlalchemy.create_engine('postgresql://' + config.username + ':' + config.password + '@' + config.endpoint)
+=======
+
+>>>>>>> 618494e69171e0784185974eb72a9de8234238e2
     con = engine.connect()
 
     nba_team_reshaped.to_sql('nba_teams', con=engine, if_exists='replace', index=False)

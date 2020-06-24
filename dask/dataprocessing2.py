@@ -71,7 +71,10 @@ def football():
     nba_game_d = nba_game_details.dropna()
     # Transfer Data to PostGres
 
+<<<<<<< HEAD
     engine = sqlalchemy.create_engine('postgresql://' + config.username + ':' + config.password + '@' + config.endpoint)
+=======
+>>>>>>> 618494e69171e0784185974eb72a9de8234238e2
     con = engine.connect()
 
 
