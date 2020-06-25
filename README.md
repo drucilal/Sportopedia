@@ -1,6 +1,6 @@
 <h2>Sportopedia<h2>
 
-<h3>Introduction<3>
+<h3>Introduction<h3>
 
 <p> Analytics has become immensely popular within the last decade especially within the sports industry. Now that sports have become more competetive, sport industries are turning to raw data to look for answers and solutions to enhance team performances and attract fans & consumers more effectively. 
   
