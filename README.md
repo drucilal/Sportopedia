@@ -26,10 +26,15 @@ My solution is using multiple historical sport datasets to develop a data wareho
 
  
 <h2> Repository Structure <h2>
+  
 Airflow
+
 Dask      Includes batch processing scripts (Extract from s3 -- transform with Dask -- transfer to postgres)
+
 Postgres  Includes Schema table of all data sources togehter
+
 Config    Hidden credientials
+
 Frontend  
 
 
