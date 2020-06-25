@@ -45,9 +45,7 @@ Below is a glimpse of the NBA teams and player raw dataset which entails their t
 
 <img width="1532" alt="Screen Shot 2020-06-25 at 4 35 53 PM" src="https://user-images.githubusercontent.com/48367736/85792764-0894ab80-b702-11ea-9b91-f939bb5a110b.png">
 
-
-Datasets
---
+<h4>List of Datasets<h4>
 
 Basketball-Reference
 
