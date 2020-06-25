@@ -11,7 +11,7 @@ Analytics has become immensely popular within the last decade especially within 
 My solution is using multiple historical sport datasets to develop a data warehouse that will forcast game and players statistics so that sport analysts can more effectively query and analyze the data to make better strategic decisions.
   
 <h3>Demo<h3>
-* Put video *
+
 
 <h2>Presentation Slides<h2>
 
