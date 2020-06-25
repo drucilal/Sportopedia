@@ -40,18 +40,30 @@ Frontend  --
 
 <h3>Dataset<h3>
 
-<p> 15 gigabyte of the datasets consists of games, teams, and players' statistical for basketball, footballl, and soccer divided by leagues and gender. 
-<p> Below is a glimpse of the NBA teams and player raw dataset which entails their teams and individual statistics by season.<p>
-  # list data sources
+15 gigabyte of the datasets consists of games, teams, and players' statistical for basketball, footballl, and soccer divided by leagues and gender. 
+Below is a glimpse of the NBA teams and player raw dataset which entails their teams and individual statistics by season.
 
-* List Datasets
+<img width="1532" alt="Screen Shot 2020-06-25 at 4 35 53 PM" src="https://user-images.githubusercontent.com/48367736/85792764-0894ab80-b702-11ea-9b91-f939bb5a110b.png">
 
-<h3> Cluster Setup <h3>
-  
-  * what was used?
-  
-<h3> References <h3>
 
+Datasets
+--
+
+Basketball-Reference
+
+Lahman's Baseball Database
+
+NFL.com (stats for regular seasons)
+
+Pro football Reference (wins,losses, and ties)
+
+Topend Sports (past super bowl winners)
+
+NCAA Men Basketball 
+
+NCAA Women Basketball
+
+WNBA Basketball-Reference
 
 
 
