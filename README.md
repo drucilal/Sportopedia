@@ -10,7 +10,7 @@ Analytics has become immensely popular within the last decade especially within 
   
 My solution is using multiple historical sport datasets to develop a data warehouse that will forcast game and players statistics so that sport analysts can more effectively query and analyze the data to make better strategic decisions.
   
-<h3>Demo<h3>
+<h4>Demo<h4>
 
 ![46bw1c](https://user-images.githubusercontent.com/48367736/85785290-26104800-b6f7-11ea-813e-0780d9768b76.gif)
 
@@ -38,7 +38,7 @@ Config  --  Hidden credientials
 Frontend  --
 
 
-<h3>Dataset<h3>
+<h4>Dataset<h4>
 
 15 gigabyte of the datasets consists of games, teams, and players' statistical for basketball, footballl, and soccer divided by leagues and gender. 
 Below is a glimpse of the NBA teams and player raw dataset which entails their teams and individual statistics by season.
