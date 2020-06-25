@@ -14,18 +14,23 @@ My solution is using multiple historical sport datasets to develop a data wareho
 
 ![46bw1c](https://user-images.githubusercontent.com/48367736/85785290-26104800-b6f7-11ea-813e-0780d9768b76.gif)
 
-
-
 <h2>Presentation Slides<h2>
+  
+![Slides](https://docs.google.com/presentation/d/1UtgYyS_OzYd2eKISQA0PEFr8ZizZxolrx4JCywblnHA/edit?usp=sharing)
 
 <h2> ETL Pipeline <h2>
 
 <p> All datasets are stored in the AWS S3 Bucket. From there, data was extracted from the bucket and transformed using the parallel computing library, dask. Processed data was transferred and stored into Postgres. To manage the entire workflow of this pipeline, Apache Airflow was utilise because while Luigi runs tasks in the cron jobs, Airflow has it own local scheduler which allows me to scale the tasks independently. Queries from Postgres were displayed on Tableau. 
  
- ** screen shot of pipeline **
+<img width="2035" alt="Screen Shot 2020-06-25 at 3 27 15 PM" src="https://user-images.githubusercontent.com/48367736/85786870-ad11f000-b6f8-11ea-9ca4-dc09eee8c089.png">
+
  
 <h2> Repository Structure <h2>
-
+|-- Airflow
+|-- Dask      Includes batch processing scripts (Extract from s3 -- transform with Dask -- transfer to postgres)
+|-- Postgres  Includes Schema table of all data sources togehter
+|-- Config    Hidden credientials
+|-- Frontend  
 
 
 <h3>Dataset<h3>
