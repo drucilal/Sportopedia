@@ -66,7 +66,7 @@ def transfer_tosql(df,table_name):
     df = datafarme 
     table_name = chosen table name
     """
-    engine = sqlalchemy.create_engine('postgresql://drucila18:rebecca22@sportdbpostsql.cxc38wuqlkuh.us-east-1.rds.amazonaws.com/sportdb')
+    engine = sqlalchemy.create_engine('url')
     con = engine.connect()
     df.to_sql(table_name, con=engine, if_exists='replace', index=False)
     return con.close()
